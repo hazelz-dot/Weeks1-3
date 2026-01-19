@@ -4,7 +4,9 @@ using UnityEngine;
 
 public class SpriteChanger : MonoBehaviour
 {
-    //public SpriteRenderer 
+    //public SpriteRenderer  spriteRenderer; 
+    public Color col; 
+    //public List<Sprite> 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
