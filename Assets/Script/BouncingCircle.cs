@@ -2,8 +2,8 @@ using UnityEngine;
 
 public class BouncingCircle : MonoBehaviour
 {
-    float speedX = 0.01f;
-    float speedY = 0.02f; 
+    float speedX = 0.005f;
+    float speedY = 0.003f; 
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
