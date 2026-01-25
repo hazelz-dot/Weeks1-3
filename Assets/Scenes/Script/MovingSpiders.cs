@@ -3,8 +3,9 @@ using UnityEngine;
 public class MovingSpiders : MonoBehaviour
 {
     //set speed for the spiders
-    float speedX = 0.002f;
-    float speedY = 0.004f;
+    //public so we can edit the spiders to have different speed in unity
+    public float speedX = 0.002f;
+    public float speedY = 0.004f;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -14,6 +15,7 @@ public class MovingSpiders : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        //spider will move with the speed that we set in float
         Vector2 newPosition = transform.position;
         newPosition.x += speedX;
         newPosition.y += speedY;

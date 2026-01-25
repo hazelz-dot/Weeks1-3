@@ -2,6 +2,7 @@ using UnityEngine;
 
 public class Pulse : MonoBehaviour
 {
+    //use animation curve to imitate human eye movement
     public AnimationCurve curve;
     public float t = 0;
     // Start is called once before the first execution of Update after the MonoBehaviour is created

@@ -2,10 +2,12 @@ using UnityEngine;
 
 public class LinearInterpolation : MonoBehaviour
 {
+    //set start and end positions for the movement
     public Transform start; 
     public Transform end;
     public float t = 0;
 
+    //use animation curve to imitate human eye movement
     public AnimationCurve curve; 
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
